@@ -1,0 +1,13 @@
+service: clinc-bizlo
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  clincQuery:
+    handler: handler.run
+    events:
+      - http:
+          path: /api/v1/clinc_query
+          method: post
