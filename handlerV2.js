@@ -1,9 +1,12 @@
 module.exports = {
   run(event) {
-    console.log(">>>>>>>>>> REQUEST DATA", event.body);
+    console.log(">>>>>>>>>> REQUEST DATA", event.body, "<<<<<<<<<<<<<<<");
+
     return Promise.resolve({
-      statusCode: 200,
-      body: event.body
+      statusCode: 501,
+      body: JSON.stringify({
+        message: "not implemented"
+      })
     });
   }
 };
