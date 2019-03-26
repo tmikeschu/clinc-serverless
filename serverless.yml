@@ -11,3 +11,9 @@ functions:
       - http:
           path: /api/v1/clinc_query
           method: post
+  clincQueryV2:
+    handler: handlerV2.run
+    events:
+      - http:
+          path: /api/v2/clinc_query
+          method: post
