@@ -1,0 +1,24 @@
+{
+  "ai_version": "d87d490c-91fb-43a9-bfd8-9cff0cf4d019",
+  "device": "default",
+  "dialog": "",
+  "lat": 0,
+  "lon": 0,
+  "time_offset": 0,
+  "external_user_id": "1",
+  "query": "Change my email",
+  "qid": "c9c591f0-84ca-46ec-a4f3-89a8c16df739",
+  "state": "change_details",
+  "slots": {
+    "_DETAIL_TYPE_": {
+      "type": "string",
+      "values": [
+        { "resolved": -1, "tokens": "email", "detail_type_dest": "email" }
+      ]
+    }
+  },
+  "sentiment": 0,
+  "intent_probability": 0.9727451921549916,
+  "session_id": "4cc96df79ca34e15b23e66b4445f4873",
+  "intent": "change_details_start"
+}

@@ -1,0 +1,48 @@
+{
+  "ai_version": "d87d490c-91fb-43a9-bfd8-9cff0cf4d019",
+  "device": "default",
+  "dialog": "UFbgH3Pa3wQCYfkV3JVrRUME5Ba4Pz/2",
+  "lat": 0,
+  "lon": 0,
+  "time_offset": 0,
+  "external_user_id": "1",
+  "query": "correct",
+  "qid": "8bafd6e1-ab55-464b-9290-6d4cf0aeec2f",
+  "state": "change_details_confirmed",
+  "slots": {
+    "_DETAIL_VALUE_": {
+      "type": "string",
+      "values": [
+        { "resolved": 1, "tokens": "1231231233", "value": "1231231233" }
+      ]
+    },
+    "_DETAIL_TYPE_": {
+      "type": "string",
+      "values": [
+        {
+          "resolved": 1,
+          "tokens": "personal phone",
+          "detail_type_dest": "phone",
+          "value": "personal phone"
+        }
+      ]
+    }
+  },
+  "sentiment": 0,
+  "intent_probability": 0.9400859901990014,
+  "session_id": "7f5f4410212f481cbc98ac6a42a429f9",
+  "intent": "cs_yes",
+  "response_slots": {
+    "response_type": "change_details_confirmed",
+    "speakables": {
+      "response_key": "UPDATED_PHONE",
+      "new_phone": "1231231233",
+      "old_phone": "987 987 9877"
+    },
+    "visuals": {
+      "response_key": "UPDATED_PHONE",
+      "new_phone": "1231231233",
+      "old_phone": "987 987 9877"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "ai_version": "d87d490c-91fb-43a9-bfd8-9cff0cf4d019",
+  "device": "default",
+  "dialog": "WtznuTGFhu/fFGvDKMQpsV4W88JbYa4D",
+  "lat": 0,
+  "lon": 0,
+  "time_offset": 0,
+  "external_user_id": "1",
+  "query": "tmikeschutte@gmail.com",
+  "qid": "72352468-679f-44e7-9738-d842cc521ccd",
+  "state": "change_details",
+  "slots": {
+    "_DETAIL_VALUE_": {
+      "type": "string",
+      "values": [{ "resolved": -1, "tokens": "tmikeschutte @ gmail.com" }]
+    },
+    "_DETAIL_TYPE_": {
+      "type": "string",
+      "values": [
+        {
+          "resolved": 1,
+          "tokens": "email",
+          "detail_type_dest": "email",
+          "value": "email"
+        }
+      ]
+    }
+  },
+  "sentiment": 0,
+  "intent_probability": 0.8713104987770636,
+  "session_id": "4cc96df79ca34e15b23e66b4445f4873",
+  "intent": "email_update"
+}
