@@ -82,6 +82,19 @@ module.exports = {
         )
       );
 
+      /*
+       * EXAMPLE Jinja template
+
+        {% if response_key is not defined %}
+          I don't know what you want.
+        {% endif %}
+
+        {% if response_key == "UPDATED_PHONE" %}
+          We updated your phone from {{ old_phone }} to {{ new_phone }}.
+        {% endif %}
+
+       */
+
       return body;
     } else if (path([0, "detail_type_dest"])(detailType) === "email") {
       // EXAMPLE: add data to existing slot
