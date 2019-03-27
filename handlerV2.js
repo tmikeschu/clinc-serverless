@@ -1,9 +1,9 @@
 const { log } = require("./utils");
-const resolveChangeDetailsConfirmed = require("./resolveChangeDetailsConfirmed");
+const changeDetails = require("./changeDetails");
 
 const stateHandlers = {
-  change_details: resolveChangeDetailsConfirmed,
-  change_details_confirmed: resolveChangeDetailsConfirmed
+  change_details: changeDetails.resolve,
+  change_details_confirmed: changeDetails.resolveConfirmed
 };
 
 module.exports = {

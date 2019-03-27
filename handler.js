@@ -9,7 +9,7 @@ module.exports = {
     if (data.state === "get_balance") {
       const processed = resolveGetBalance(data);
 
-      log("response", processed);
+      log("response", JSON.stringify(processed));
       return Promise.resolve({
         statusCode: 200,
         body: JSON.stringify(processed)
