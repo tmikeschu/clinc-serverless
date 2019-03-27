@@ -25,3 +25,9 @@ Logging:
 ```
 sls logs -f clincQuery -t
 ```
+
+Testing:
+
+```
+npm test
+```

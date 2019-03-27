@@ -1,0 +1,22 @@
+{
+  "name": "clinc-serverless",
+  "version": "1.0.0",
+  "description": "Create an AWS user.",
+  "main": "changeDetails.js",
+  "scripts": {
+    "test": "tape **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmikeschu/clinc-serverless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmikeschu/clinc-serverless/issues"
+  },
+  "homepage": "https://github.com/tmikeschu/clinc-serverless#readme",
+  "dependencies": {
+    "tape": "^4.10.1"
+  }
+}
